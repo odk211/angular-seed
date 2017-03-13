@@ -40,7 +40,7 @@
     "tests.all": "npm test && npm run e2e.ci",
     "webdriver-start": "webdriver-manager start",
     "webdriver-update": "node_modules/protractor/bin/webdriver-manager update",
-    "compodoc": "node_modules/.bin/compodoc -p src/client/tsconfig.json",
+    "compodoc": "node_modules/.bin/compodoc -p src/tsconfig.json",
     "serve.compodoc": "node_modules/.bin/compodoc -s"
   },
   "author": "Minko Gechev <mgechev>",

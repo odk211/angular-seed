@@ -32,6 +32,9 @@ export class ProjectConfig extends SeedConfig {
       // {src: `${this.CSS_SRC}/path-to-lib/test-lib.css`, inject: true, vendor: false},
     ];
 
+    this.APP_CLIENT = '';
+    this.APP_SRC = 'src';
+
     // Add packages (e.g. ng2-translate)
     // let additionalPackages: ExtendPackages[] = [{
     //   name: 'ng2-translate',
