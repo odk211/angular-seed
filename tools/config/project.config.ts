@@ -35,6 +35,9 @@ export class ProjectConfig extends SeedConfig {
     this.APP_CLIENT = '';
     this.APP_SRC = 'src';
     this.E2E_SRC = 'e2e';
+    this.ASSETS_SRC = `${this.APP_SRC}/assets`;
+    this.CSS_SRC = `${this.APP_SRC}/css`;
+    this.SCSS_SRC = `${this.APP_SRC}/scss`;
 
     // Add packages (e.g. ng2-translate)
     // let additionalPackages: ExtendPackages[] = [{
